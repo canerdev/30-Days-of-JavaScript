@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#hero {
+    background-color: rgb(99, 95, 95);
+    width: 75%;
+    height: fit-content;
+    padding: 1em 0;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1.7em;
+}

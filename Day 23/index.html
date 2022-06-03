@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>click me</button>
+
+    <button onclick="clickMe()">click me directly</button>
+    
+    <p>double click paragraph</p>
+    
+    <button id="mouseenter">mouseenter</button> <!--mouse un üzerinden geçmesi yeterli, yapılan şey kalıcıdır-->
+    
+    <button id="mouseleave">mouseleave</button>
+    
+    <button id="mousemove">mousemove</button>
+    
+    <div id="mouseover" style="padding: 25px;background-color: red;">
+        <a href="">mouseover test</a>
+    
+    </div>
+    
+    <div id="mouseout" style="padding: 20px; background-color: aqua;">
+        <p>mouseout test</p>
+    
+    </div>
+    
+    <input type="text" id="input">
+    <br>
+    <label for="">
+        choose one of them: 
+        <select name="" id="change">
+            <option value="option 1">option 1</option>
+            <option value="option 2">option 2</option>
+            <option value="option 3">option 3</option>
+        </select>
+    </label>
+    <div class="result-input"></div>
+    
+    <textarea name="" id="blur" cols="30" rows="10"></textarea>
+    
+    <input type="text" id="keydown" placeholder="keydown">
+    <br>
+
+    <input type="text" id="keyup" placeholder="keyup">
+    
+    
+    <br> <hr>
+
+    <input type="number" id="mother-height">
+    <input type="number" id="father-height">
+    <button id="calculate">CALCULATE</button>
+    <div class="btn-result">
+
+    </div>
+
+    <input type="text" id="input-2" placeholder="say something">
+    <p id="input-result"></p>
+    <br> <br>
+
+    <!--generate number-->
+    <input type="number" id="genNum-input" placeholder="1 to 200">
+    <button id="genNum-btn">click me amq</button>
+    <div id="generateNumber">
+
+    </div>
+    <br> <br> <hr>
+    <!--generate the keyboard code-->
+    <div id="keyCode">
+        press any keyboard key <span id="key"></span>
+    </div>
+    <p id="show-key"></p>
+
+    
+    <script src="eventListeners.js"></script>
+</body>
+</html>
